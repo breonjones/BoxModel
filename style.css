@@ -10,17 +10,15 @@ color:lightcoral;
 }
 
 #nopadding{
-
-    padding:0;
+    padding:0px;
 }
 
 #padding{
-
     padding:50px;
 }
 
 #toppadding{
-    padding: top 50;
+    padding-top: 50px;
 }
 
 #rightpadiing{
@@ -37,7 +35,39 @@ color:lightcoral;
 
 #mixpadding{
     padding:10px 40px 100px 20px;
+}
+#dottedborder{
 
-
+    border:3px dotted navy;
+}
+#dashedborder{
+    border:2px dashed red;
 }
 
+#solidborder{
+    border:4px solid yellow;
+}
+
+#doubleborder{
+    border:3px double  green;
+}
+#grooveborder{
+
+    border:4px groove orange;
+}
+#ridgeborder{
+  border:  5px ridge purple;
+}
+#insetborder{
+    border:10px inset grey;
+}
+#outsetborder{
+    border:10px outset grey;
+}
+/* TOP RIGHT BOTTOM LEFT*/
+
+#mixedborder{
+    border-color:chartreuse;
+    border-style: dotted outset inset ridge;
+    border-width:20px;
+}
