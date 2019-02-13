@@ -1,6 +1,5 @@
 p{
-
-    font-size: 20px;
+  font-size:20px;
 }
 
 div{
@@ -18,18 +17,18 @@ color:lightcoral;
 }
 
 #toppadding{
-    padding-top: 50px;
+    padding-top:50px;
 }
 
 #rightpadiing{
-    padding-right: 50px;
+    padding-right:50px;
 }
 
 #leftpadding{
-    padding-left: 50px; 
+    padding-left:50px; 
 }
 #bottompadding{
-    padding-bottom: 50px;
+    padding-bottom:50px;
 }
 /*order is always TOP RIGHT BOTTOM LEFT*/
 
@@ -56,7 +55,7 @@ color:lightcoral;
     border:4px groove orange;
 }
 #ridgeborder{
-  border:  5px ridge purple;
+  border:5px ridge purple;
 }
 #insetborder{
     border:10px inset grey;
@@ -68,6 +67,39 @@ color:lightcoral;
 
 #mixedborder{
     border-color:chartreuse;
-    border-style: dotted outset inset ridge;
+    border-style:dotted outset inset ridge;
     border-width:20px;
+}
+.row1{
+    width:25%;
+    border:2px solid black;
+    padding:10px;
+    text-align:center;
+    margin-left:20px;
+    margin-right:20px;
+}
+.row2{
+    width:30%;
+    border:2px solid black;
+    margin-top:20px;
+}
+#center{
+    display:block;
+    width:25%;
+    margin:auto;
+    margin-top:25px;
+    margin-bottom:50px;
+
+}
+#perLeftMargin{
+height:200px;
+width:35%;
+margin-left:10%; 
+ margin-right:10%;
+}
+
+#perRightMargin{
+height:200px;
+width:35%;
+
 }
